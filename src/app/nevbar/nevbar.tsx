@@ -16,34 +16,37 @@ const Nevbarpage:NextPage = () => {
     const [clientWindoHeight,setClientWindoHeight] = useState("");
     const [logoDisplay,setlogoDisplay] = useState("")
     const [expanded, setExpanded] = useState("hidden")
-
-    // set the target element that will be collapsed or expanded (eg. navbar menu)
-const $targetEl1 = document.getElementById('targetEl');
-
-console.log($targetEl1);
-
-// optionally set a trigger element (eg. a button, hamburger icon)
-const $triggerEl2 = document.getElementById('triggerEl');
-
-// optional options with default values and callback functions
-const options: CollapseOptions = {
-  onCollapse: () => {
-    console.log('element has been collapsed')
-    collapse.collapse();
-  },
-  onExpand: () => {
-    console.log('element has been expanded')
-    collapse.expand();
-  },
-  onToggle: () => {
-    console.log('element has been toggled')
-    collapse.toggle();
-  }
-};
-
-
-
-const collapse: CollapseInterface = new Collapse($targetEl1, $triggerEl2, options);
+    if (typeof window !== "undefined") {
+      
+      
+      // set the target element that will be collapsed or expanded (eg. navbar menu)
+      const $targetEl1 = document.getElementById('targetEl');
+      
+      console.log($targetEl1);
+      
+      // optionally set a trigger element (eg. a button, hamburger icon)
+      const $triggerEl2 = document.getElementById('triggerEl');
+      
+      // optional options with default values and callback functions
+      const options: CollapseOptions = {
+        onCollapse: () => {
+          console.log('element has been collapsed')
+          collapse.collapse();
+        },
+        onExpand: () => {
+          console.log('element has been expanded')
+          collapse.expand();
+        },
+        onToggle: () => {
+          console.log('element has been toggled')
+          collapse.toggle();
+        }
+      };
+      
+      
+      
+      const collapse: CollapseInterface = new Collapse($targetEl1, $triggerEl2, options);
+    }
 //     // set the target element that will be collapsed or expanded (eg. navbar menu)
 // const $targetEl = document.getElementById('targetEl');
 
@@ -90,10 +93,12 @@ const collapse: CollapseInterface = new Collapse($targetEl1, $triggerEl2, option
 
         }
     };
+    if (typeof window !== "undefined") {
     const button = document.getElementById('triggerEl');
+    }
     const buttonClick = () =>{
         console.log(this)
-        console.log(button);
+        // console.log(button);
         
         const  navbar = document.getElementsByClassName('navbar');
         const navbarHidden = document.getElementsByClassName('hidden')

@@ -124,7 +124,7 @@ const Nevbarpage:NextPage = () => {
 
 <nav className="border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0"  id="Nevbar" style={{backgroundColor:clientWindoHeight}}>
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" className="flex items-center">
+    <a href="/" className="flex items-center">
         <Image src={Logo} className="h-9 mr-3" alt="Flowbite Logo" />
         <span className="self-center text-2xl  whitespace-nowrap dark:text-white"><Image src={LogoImage} className="pt-3 pl-3" alt="varnya text" /></span>
     </a>

@@ -17,8 +17,11 @@ a{
 
 .storyContent{
     color: #579581;
+    text-align: center;
+
 }
 .locationMainDiv{
+    width: 98.9vw !important;
     background-color: yellowgreen;
 }
 
@@ -31,6 +34,7 @@ h1{
     font-weight: bold;
     font-size:20px;
     border-radius: 10px;
+    width: 10vw;
     text-align: center;
     background-color: #00000059;
 }
@@ -57,4 +61,23 @@ h3{
 
 .PhotoGaleryBlock:hover{
 	filter: grayscale(1);
+}
+
+.ourStoryContentBox{
+    margin: 10rem;
+}
+
+.ourStoryContainer{
+    margin-left: 1rem;
+}
+
+.ourStoryImg{
+    height: 30vw  !important;
+}
+
+.ourStoryContent{
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
 }

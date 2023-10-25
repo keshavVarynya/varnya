@@ -83,13 +83,26 @@ export default function Home() {
 </button> */}
 </div>
 <div className="ourStory">
-  <main className='flex  flex-col  p-24 '>
-    <div className='flex storyContent'>
-       <div className='basis-1/6'>
-        <h1>our story</h1>
-       </div>
+  <main className=' flex  p-24 '>
+    
+    <div className="max-w-sm flex flex-col  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-5 ourStoryContainer">
+  <div className='p-1 ' style={{width:"32.5vw"}}>
+    <a href="#">
+        <Image className="rounded-t-lg ourStoryImg w-full" src={crousalPick7} alt="our story" />
+    </a>
     </div>
+</div>
+<div className='text-center ourStoryContentBox'>
+  <span className='ourStoryContent'>we will proud to tell our story</span>
+  <div className='flex storyContent justify-around'>
+       <div className=''>
+        <a href='/ourstory'><h1>our story</h1></a>
+       </div>
+       
+    </div>
+</div>
   </main>
+  
 </div>
 <div className='ourServices flex justify-around p-24'>
     <div><div className='serviceSnap'><span><TfiCut  /></span></div></div>

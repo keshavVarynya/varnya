@@ -6,8 +6,8 @@ import { Card,CardBody,Button } from "@nextui-org/react";
 
 const Location:NextPage = () =>{
     return(
-        <div className="container mx-auto">
-        <div className="locationMainDiv">
+        <div className="container w-full">
+        <div className="locationMainDiv w-full">
         <div className="flex justify-between p-24">
             <div className="p-24">
                 <h1>The place where</h1><h3> we meet soon.</h3>

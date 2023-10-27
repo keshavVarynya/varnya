@@ -1,7 +1,12 @@
 import { NextPage } from "next";
+import Image from "next/image";
 
 const AboutPage:NextPage = () => {
-    return <div>Hello</div>;
+    return (
+    <div>
+        
+    </div>
+    )
 }
 
 export default AboutPage;

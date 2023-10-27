@@ -22,7 +22,7 @@ a{
 }
 .locationMainDiv{
     width: 98.9vw !important;
-    background-color: yellowgreen;
+    background-color: #32b8cd69;
 }
 
 .locationContactButton{
@@ -73,6 +73,7 @@ h3{
 
 .ourStoryImg{
     height: 30vw  !important;
+    width: 100%  !important;
 }
 
 .ourStoryContent{
@@ -80,4 +81,43 @@ h3{
     font-style: italic;
     font-weight: lighter;
     font-size: 15px;
+}
+
+.locationCard{
+    background-color: #ffffff82;
+    border-radius: 10px;
+}
+.locationImage{
+    border-radius: 10px;
+}
+
+.imageCrousal{
+    height: 400px;
+}
+.crousalContainer{
+    background-color: #ffffff82;
+    border-radius: 2vw;
+}
+
+.blogImg{
+    height: 50vw !important;
+    width: 800px;
+}
+
+.blogContainer{
+    width: 60vw !important;
+}
+
+.blogSmall{
+    width: 30rem;
+}
+.blogWriter{
+    font-size: 20px;
+    background-color: #808080ab;
+    color: whitesmoke;
+}
+
+.blogCardImg{
+    height: 15rem !important;
+    width: 50rem !important;
 }

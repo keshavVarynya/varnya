@@ -88,7 +88,7 @@ export default function Home() {
     <div className="max-w-sm flex flex-col  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-5 ourStoryContainer">
   <div className='p-1 ' style={{width:"32.5vw"}}>
     <a href="#">
-        <Image className="rounded-t-lg ourStoryImg w-full" src={crousalPick7} alt="our story" />
+        <Image className="rounded-t-lg ourStoryImg" src={crousalPick7} alt="our story" />
     </a>
     </div>
 </div>

@@ -6,16 +6,7 @@ import varnya from "../images/FLASHMEUP-4545.jpg"
 import { CiInstagram } from "react-icons/ci";
 import { useEffect } from "react";
 
-function diginerButton(e) {
-  // let diginer = document.getElementsByClassName(e);
-  console.log(e.target.id);
-  e.target.className
-  
-  let designer = document.getElementsByClassName(e.target.className);
-  console.log(designer);
-  
-  
-}
+
 const AboutPage:NextPage = () => {
 
   useEffect(() =>{
@@ -46,24 +37,24 @@ const AboutPage:NextPage = () => {
             </span>
         </div>
         <div className="flex justify-center mt-10">
-        <button id="diginerButtonAll" className="diginerButtonAll m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        <button id="diginerButtonAll" className="diginerButtonAll m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" >
             ALL
         </button>
-        <button id="diginerButtonHair" className="diginerButtonHair m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        <button id="diginerButtonHair" className="diginerButtonHair m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded">
             HAIR DESIGNER
         </button>
-        <button id="diginerButtonMessage" className="diginerButtonMessage m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        <button id="diginerButtonMessage" className="diginerButtonMessage m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" >
             MASSAGE THERAPIST
         </button>
-        <button id="diginerButtonEsthetician" className="diginerButtonEsthetician m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        <button id="diginerButtonEsthetician" className="diginerButtonEsthetician m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded">
             ESTHETICIAN
         </button>
-        <button id="diginerButtonNail" className="diginerButtonNail m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        <button id="diginerButtonNail" className="diginerButtonNail m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded">
             NAIL DESIGNER
         </button>
-        <button id="diginerButtonBarber" className="diginerButtonBarber m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        <button id="diginerButtonBarber" className="diginerButtonBarber m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded">
             BARBER
-        </button><button id="diginerButtonAyurveda" className="diginerButtonAyurveda m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" onClick={(e)=> diginerButton(e)}>
+        </button><button id="diginerButtonAyurveda" className="diginerButtonAyurveda m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded">
             AYURVEDA THERAPIST
         </button>
         </div>

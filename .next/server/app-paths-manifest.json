@@ -1,1 +1,13 @@
-{}
+{
+  "/_not-found": "app/_not-found.js",
+  "/blog/Hair-Oiling_blog/page": "app/blog/Hair-Oiling_blog/page.js",
+  "/blog/Hair_Spa/page": "app/blog/Hair_Spa/page.js",
+  "/blog/No_Chemical_Fachials/page": "app/blog/No_Chemical_Fachials/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/location/page": "app/location/page.js",
+  "/ourstory/page": "app/ourstory/page.js",
+  "/page": "app/page.js",
+  "/service/page": "app/service/page.js"
+}

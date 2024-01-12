@@ -28,15 +28,7 @@ export default function Home() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  window.addEventListener("scroll", function(event) {
   
-    var top = this.window.scrollY;
-
-    console.log(top);
-    
-    
-  
-}, false);
 
   const slide = [
       {

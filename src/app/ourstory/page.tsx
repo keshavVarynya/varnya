@@ -36,7 +36,7 @@ const AboutPage:NextPage = () => {
                 OUR TEAM
             </span>
         </div>
-        <div className="flex justify-center mt-10">
+        <div className="OurTeams flex justify-center mt-10">
         <button id="diginerButtonAll" className="diginerButtonAll m-5 bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-400 hover:border-blue-500 rounded" >
             ALL
         </button>

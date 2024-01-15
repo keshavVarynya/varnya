@@ -255,16 +255,32 @@ border-radius: 50%;
     color: #99a6a6;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 769px){
 
 .ourServices{
 flex-direction: column;
 
 }
+.OurTeams{
+    flex-direction: column;
+}
+.blogPage{
+    flex-direction: column;
+}
+.Blogs{
+    width: auto !important;
+}
 .item{
     width: auto !important;
     font-size: 5vw;
     margin-top: 4vw;
+}
+.serviceCardContainer{
+    flex-direction: column;
+}
+.serviceCard{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 }

@@ -68,7 +68,7 @@ const ServicePage:NextPage = () => {
                 <span>Neroli has five convenient locations in the Milwaukee area, including Downtown, North Shore, East Side, Mequon and Brookfield. To make your reservation, please call Neroli Guest Services at 414-227-2888 or use our online reservation system.</span>
             </div>
         </div>
-        <div className="flex justify-around mt-10">
+        <div className="flex serviceCardContainer justify-around mt-10">
         <div className="max-w-sm rounded overflow-hidden shadow-lg serviceCard">
   <Image className="w-full serviceCardImg" src={schwarzkopf} alt="Sunset in the mountains" />
   <div className="px-6 py-4">

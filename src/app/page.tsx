@@ -18,7 +18,7 @@ import crousalPick7 from "./images/IMG_5579.jpg"
 import crousalPick8 from "./images/FLASHMEUP-54.jpg"
 import crousalPick9 from "./images/FLASHMEUP-83.jpg"
 import crousalPick10 from "./images/IMG_7234.jpg"
-import service11     from "./images/IMG_0136.JPG"
+import service11     from "./images/IMG_0136.jpg"
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import "./css/style.css"

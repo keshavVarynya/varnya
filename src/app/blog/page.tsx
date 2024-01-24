@@ -4,8 +4,8 @@ import crousalPick from "../images/FLASHMEUP-36.jpg"
 import { CiUser } from "react-icons/ci";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaAngleRight } from "react-icons/fa";
-import imagehair from "../images/IMG_0136.JPG"
-import spaimage from "../images/IMG_0138.JPG"
+import imagehair from "../images/IMG_0136.jpg"
+import spaimage from "../images/IMG_0138.jpg"
 import Link from "next/link";
 
 const BlogPage:NextPage = () => {

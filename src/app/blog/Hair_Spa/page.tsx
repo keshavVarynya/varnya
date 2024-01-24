@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import Image from "next/image";
-import crousalPick from "../../images/IMG_0140.JPG"
+import crousalPick from "../../images/IMG_0140.jpg"
 import { CiUser } from "react-icons/ci";
 
 

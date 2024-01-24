@@ -2,28 +2,37 @@ import { NextPage } from "next";
 import Image from "next/image";
 import crousalPick from "../../images/FLASHMEUP-36.jpg"
 import { CiUser } from "react-icons/ci";
+import hairOil from "../../images/IMG_0136.JPG"
 
 
 const HairOiling: NextPage = () => {
     return (
         <div>
-            <div className="flex justify-center">
-                <Image className="hairOlingFullBlog" src={crousalPick} alt="..." />
+            <div className="HairOilContainer flex justify-center mt-5">
+                <div className="hairOilContent">
+            <div className="mt-20 text-center "><span className="underline underline-offset-8 leading-relaxed tracking-wide font-bold text-xl text-stone-900 blogContentHeading">Hair Oiling: A Comeback</span></div>
 
-            </div>
-            <div className="text-center pt-5"><span className="underline underline-offset-8 leading-relaxed tracking-wide font-bold text-xl text-stone-900 blogContentHeading">Hair Oiling: A Comeback</span></div>
-            <div className="p-10 pb-0 "><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Hair oiling is one of the oldest tricks in the book for long, healthy, and luscious locks. Even though trends have changed today, oiling used to be a go-to for our grandmothers and
+            <div className=" p-10 pb-0 "><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Hair oiling is one of the oldest tricks in the book for long, healthy, and luscious locks. Even though trends have changed today, oiling used to be a go-to for our grandmothers and
                 mothers. With innumerable chemical treatments, including keratin, botox, nanoplasty, and
                 whatnot, most people seem to have forgotten the good ol’ oil treatment. </span></div>
-            <div className="p-10 pb-0"><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Be it excessive heat damage, split ends, or dull tresses, oiling hair never disappoints. In
+                <div className="p-10 pb-0"><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Be it excessive heat damage, split ends, or dull tresses, oiling hair never disappoints. In
                 addition, environmental factors such as increased pollution and climatic changes highly
                 affect hair quality. However, one can easily restore the natural shine and luster of the hair
                 by regularly nourishing it with the proper nutrients, and patience, of course! Want
                 jaw-droppingly voluminous hair like Rapunzel? Oil it! </span></div>
-            <div className="p-10 pb-0"><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">One of the fondest childhood memories for most Asians would be their mother oiling their
+                <div className="p-10 pb-0"><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">One of the fondest childhood memories for most Asians would be their mother oiling their
                 hair. Those days and memories just hit differently. Those days might not come back, but
                 your pre-chemical hair can. Yes, with the right oil and techniques, you might be able to
                 flaunt some real-gorgeous tresses.  </span></div>
+                </div>
+                <Image className="hairOlingFullBlog pe-10 hairOilImage" src={hairOil} alt="..." />
+
+            </div>
+            {/* <div className="p-10 pb-0 "><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Hair oiling is one of the oldest tricks in the book for long, healthy, and luscious locks. Even though trends have changed today, oiling used to be a go-to for our grandmothers and
+                mothers. With innumerable chemical treatments, including keratin, botox, nanoplasty, and
+                whatnot, most people seem to have forgotten the good ol’ oil treatment. </span></div> */}
+
+            
             <div className="p-10 pb-0"><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Now, if you are reading carefully, you might wonder what we mean by the “right oil”? By
                 right, we simply mean pure and unadulterated. Whenever we consume resources in their
                 purest form, great results are promised. You can use coconut, almond, sesame, olive, or

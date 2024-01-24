@@ -8,7 +8,6 @@ import slide1 from "./images/FLASHMEUP-15.jpg"
 import slide2 from "./images/FLASHMEUP-4545.jpg"
 import slide3 from "./images/FLASHMEUP-63.jpg"
 import slide4 from "./images/FLASHMEUP-38.jpg"
-import slide5 from "./images/230808155857-04-destination-wedding-planners.jpg"
 import crousalPick1 from "./images/FLASHMEUP-29.jpg"
 import crousalPick2 from "./images/FLASHMEUP-37.jpg"
 import crousalPick3 from "./images/IMG_6512.jpg"
@@ -19,6 +18,7 @@ import crousalPick7 from "./images/IMG_5579.jpg"
 import crousalPick8 from "./images/FLASHMEUP-54.jpg"
 import crousalPick9 from "./images/FLASHMEUP-83.jpg"
 import crousalPick10 from "./images/IMG_7234.jpg"
+import service11     from "./images/IMG_0136.JPG"
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import "./css/style.css"
@@ -116,11 +116,11 @@ export default function Home() {
 </div>
 <div className='ourServices flex justify-around pt-24 pb-24 bg-image img-3'>
   <div className='item'><h1>VISIT OUR SALON SERVICE YOU MUST LIKE THEM</h1></div>
-  <div className='item'><div><Image src={crousalPick9} alt='...' /><h1>Aveda nutriplenish™ Leave-in Conditioner US $12.00 – $37.00</h1></div></div>
-  <div className='item'><div><Image src={crousalPick7} alt='...' /><h1>Aveda nutriplenish™ Leave-in Conditioner US $12.00 – $37.00</h1></div></div>
-  <div className='item'><div><Image src={slide1} className='nailCutting' alt='...' /><h1>Aveda nutriplenish™ Leave-in Conditioner US $12.00 – $37.00</h1></div></div>
-  <div className='item'><div><Image src={crousalPick5} alt='...' /><h1>Aveda nutriplenish™ Leave-in Conditioner US $12.00 – $37.00</h1></div></div>
-  <div className='item'><div><Image src={crousalPick6} alt='...' /><h1>Aveda nutriplenish™ Leave-in Conditioner US $12.00 – $37.00</h1></div></div>
+  <div className='item'><div><Image src={crousalPick9} alt='...' /><h1>Pedicure<br /> Rs 800 Onwards</h1></div></div>
+  <div className='item'><div><Image src={crousalPick7} alt='...' /><h1>Hair Spa <br /> Rs 2,500 Onwards</h1></div></div>
+  <div className='item'><div><Image src={slide1} className='nailCutting' alt='...' /><h1>Nail Extensions <br />Rs 2,500 Onwards</h1></div></div>
+  <div className='item'><div><Image src={crousalPick5} alt='...' /><h1>Wash & Blow-dry <br /> Rs 800 Onwards</h1></div></div>
+  <div className='item'><div><Image src={service11} alt='...' /><h1>Hair Oil</h1></div></div>
     {/* <div><div className='serviceSnap bg-text relative'><Image src={crousalPick1} alt='..' width={300} style={{height:"25vw"}}/></div> */}
     {/* <div  className='absolute'><span>hello</span></div> */}
     {/* </div> */}

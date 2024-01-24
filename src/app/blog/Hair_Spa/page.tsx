@@ -1,17 +1,16 @@
 import { NextPage } from "next";
 import Image from "next/image";
-import crousalPick from "../../images/FLASHMEUP-36.jpg"
+import crousalPick from "../../images/IMG_0140.JPG"
 import { CiUser } from "react-icons/ci";
+
 
 
 const HairSpa: NextPage = () => {
     return (
         <div>
-            <div className="flex justify-center">
-                <Image className="hairOlingFullBlog" src={crousalPick} alt="..." />
-
-            </div>
-            <div className="text-center pt-5"><span className="underline underline-offset-8 leading-relaxed tracking-wide font-bold text-xl text-stone-900 blogContentHeading">HAIR SPA - NEED AND IMPORTANCE</span></div>
+            <div className="HairOilContainer flex justify-center">
+                <div className="hairOilContent">
+            <div className="text-center mt-20 pt-5"><span className="underline underline-offset-8 leading-relaxed tracking-wide font-bold text-xl text-stone-900 blogContentHeading">HAIR SPA - NEED AND IMPORTANCE</span></div>
             
             <div className="p-10 pb-0 "><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Are you someone who feels the need to style their hair each time they have to go out? If you
 nodded in affirmation, we feel sorry for you. Styling your hair regularly means excess heat
@@ -29,6 +28,10 @@ easily customized. Dealing with severe hair or scalp issues? You, now, have a re
 can address them all! </span></div>
 <div className="p-10 pb-0"><span className="font-normal text-2xl text-cyan-600 tracking-wide blogContent">Why the need for hair spas?</span></div>
 
+                </div>
+                <Image className="hairOlingFullBlog pe-10" src={crousalPick} alt="..." />
+
+            </div>
             <div className="p-10 pb-0"><span className="font-extralight leading-relaxed text-neutral-600 tracking-wide blogContent">Have you ever sat in a salon to get your hair styled and the hairdresser just wouldn’t stop
 going on and on about everything that is wrong with your hair? Let’s be honest, we have all
 been there. And even though an inner voice in our head says, “Bro, I just came here for a

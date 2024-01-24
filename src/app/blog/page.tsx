@@ -4,6 +4,8 @@ import crousalPick from "../images/FLASHMEUP-36.jpg"
 import { CiUser } from "react-icons/ci";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaAngleRight } from "react-icons/fa";
+import imagehair from "../images/IMG_0136.JPG"
+import spaimage from "../images/IMG_0138.JPG"
 import Link from "next/link";
 
 const BlogPage:NextPage = () => {
@@ -14,7 +16,7 @@ const BlogPage:NextPage = () => {
         <div className="mX-auto  justify-end  Blogs">
         <div className="flex-col crousalContainer justify-end">
         <div className="photo " >
-        <Image className="imageCrousal mx-auto rounded-md w-fit" src={crousalPick} width={500}  alt="crousalImage" /> 
+        <Image className="imageCrousal mx-auto rounded-md w-fit" src={imagehair} width={500}  alt="crousalImage" /> 
         </div>
         <div className=" flex flex-col justify-center ms-10 me-10 HairOiling">
             <div className="mx-auto"><span className="underline underline-offset-8 leading-10 tracking-wide font-bold text-base text-stone-900 blogContentHeading">Hair Oiling: A Comeback</span></div>
@@ -31,7 +33,7 @@ const BlogPage:NextPage = () => {
         <div className="mX-auto Blogs">
         <div className="flex crousalContainer flex-col justify-start">
         <div className="photo mx-auto" >
-        <Image className="imageCrousal rounded-md w-fit" src={crousalPick} width={500}  alt="crousalImage" /> 
+        <Image className="imageCrousal rounded-md w-fit" src={spaimage} width={500}  alt="crousalImage" /> 
         </div>
         <div className=" flex flex-col justify-center ms-10 me-10 HairOiling">
             <div className="mx-auto"><span className="underline underline-offset-8 leading-10 tracking-wide font-bold text-base text-stone-900 blogContentHeading">HAIR SPA - NEED AND IMPORTANCE</span></div>

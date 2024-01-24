@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Image from "next/image";
 import crousalPick from "../../images/FLASHMEUP-36.jpg"
 import { CiUser } from "react-icons/ci";
-import hairOil from "../../images/IMG_0136.JPG"
+import hairOil from "../../images/hair.jpg"
 
 
 const HairOiling: NextPage = () => {
